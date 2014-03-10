@@ -17,6 +17,8 @@ public class MailService {
 	@Produces(MediaType.TEXT_HTML)
 	public String sendMail() {
 		StringBuffer result = new StringBuffer() ;
+		result.append("Hello");
+		
 		
 		
 		
