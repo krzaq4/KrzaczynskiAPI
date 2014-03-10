@@ -12,7 +12,7 @@ import javax.ws.rs.ext.Provider;
 @Path("/mail")
 public class MailService {
 
-	@Path("/mail")
+	
 	@GET
 	@Produces(MediaType.TEXT_HTML)
 	public String sendMail() {
